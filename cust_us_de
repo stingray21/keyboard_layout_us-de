@@ -1,0 +1,13 @@
+default  partial alphanumeric_keys modifier_keys
+xkb_symbols "basic" {
+
+    name[Group1]= "Custom US/DE Keyboard Layout";
+
+    include "us(basic)";
+    include "eurosign(e)";
+
+    key <AC01> {[ a,            A,          adiaeresis, Adiaeresis ]};
+    key <AC02> {[ s,            S,          ssharp,     U1E9E      ]};
+    key <AD07> {[ u,            U,          udiaeresis, Udiaeresis ]};
+    key <AD09> {[ o,            O,          odiaeresis, Odiaeresis ]};
+};
